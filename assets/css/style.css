@@ -70,7 +70,7 @@
 	/* outline-color: none; */
 	background-color: #f0f0f0;
 }
-.loadBtn, .loadBtn:hover, .loadBtn:active{
+.loadBtn{
 	border: 1px solid;
 	padding: 15px 30px;
 	border-radius: 0%;
@@ -78,6 +78,10 @@
 	margin-top: 90px;
 	font-size: 20px;
 	color: #626262;
+}
+.loadBtn:hover, .loadBtn:active{
+	background-color: #626262;
+	color: #fff;
 }
 
 /* <!-- ================footer section starts here================== --> */
